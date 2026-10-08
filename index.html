@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Интерактивный счётчик — кейс № 2</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="card" aria-labelledby="heading">
+    <span class="eyebrow">Учебная практика · Кейс № 2</span>
+    <h1 id="heading">Интерактивный счётчик</h1>
+    <p class="description">Нажимайте кнопки, чтобы изменить значение от −10 до 10.</p>
+    <div class="counter" id="result" role="status" aria-live="polite" aria-atomic="true">0</div>
+    <div class="controls">
+      <button type="button" id="minus" aria-label="Уменьшить значение на один">−</button>
+      <button type="button" id="plus" aria-label="Увеличить значение на один">+</button>
+    </div>
+    <p class="hint">Допустимый диапазон: от −10 до 10</p>
+    <div class="notice" id="notice" role="status" aria-live="polite"></div>
+  </main>
+</body>
+</html>
